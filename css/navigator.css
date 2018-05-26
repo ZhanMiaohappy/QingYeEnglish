@@ -2,7 +2,7 @@
 	width:100%;
     height: 80px;
     z-index: 99;
-    background-color:#24B050;
+    background-color:black;
 }
 .home-menu-wrap .home-menu {
     width:100%;
@@ -23,15 +23,16 @@
     width: 20%;
     color: white;
     display: inline-block;
-    padding-bottom: 3px;
+    /*padding-bottom: 3px;*/
     cursor: pointer;
     font-size: 20px;
     text-align: center;
-    height: 80px;
+    height:80px;
     line-height: 80px;
     text-decoration: none;
     position: relative;
     background-color: #000000;
+    margin: 0 auto;
 }
 .home-menu-nav a:hover{
      background-color: #BCD68D;

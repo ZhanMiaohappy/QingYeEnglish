@@ -80,11 +80,11 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
        })
-        .state('buying', {
-            url: '/buying',
+        .state('myInfo', {
+            url: '/myInfo',
             views: {
                 'content@': {
-                    templateUrl: 'app/buying.html'
+                    templateUrl: 'app/information.html'
                 }
             }
        });

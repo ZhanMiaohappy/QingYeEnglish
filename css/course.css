@@ -1,10 +1,23 @@
+.allContainer{
+	width: 1000;
+	height: 100%;
+	/*margin-top: -40px;*/
+	margin-left: -40px;
+	margin-right: -15px;
+	padding-top: 40px;
+	padding-left: 80px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	background-image: url(../image/learning_crowd_bg.jpg);
+}
 .courseContainer{
 	width: 1000px;
 	display: flex;
 	margin-left: 25%;
-	margin-top: 40px;
+	/*margin-top: 80px;*/
 	border-radius: 10px;
 	flex-wrap: wrap-reverse;
+	
 }
 ul {
     list-style: none;
@@ -37,7 +50,7 @@ ul {
 .lessonpic_hd {
     float: left;
 }
-background-image: url(../image/lhz.png);
+background-image: url(../image/znzn.png);
 }
 .lesson_wufangtu {
     width: 210px;
@@ -174,8 +187,13 @@ background-image: url(../image/lhz.png);
 }*/
 @media only screen and (max-width: 960px) {
 	.courseContainer {
-		width: 100%;
+		width: 700px;
 		margin:0 auto;
+	}
+	.j-mycourselist-data-con{
+		margin: 0 auto;
+		width: 600px;
+    height: 190px;
 	}
 	.mycourse_block_hd {
     box-sizing: border-box;
@@ -185,12 +203,5 @@ background-image: url(../image/lhz.png);
     margin: 0 auto;
     background-color: #fff;
     border: 1px solid #E4E4E4;
-}
-	.mycourse_ul .tb {
-    position: relative;
-    width: 100%;
-    height: 190px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
 }
 }
