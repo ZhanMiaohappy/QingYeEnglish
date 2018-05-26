@@ -6,7 +6,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/home',
             views: {
                 'content@':{
-                    templateUrl: 'home/home.html'
+                    templateUrl: 'app/home.html'
                 }
             }
         })
@@ -29,7 +29,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/yingYi',
             views: {
                 'content@': {
-                    templateUrl: 'yingYi/yingYi.html'
+                    templateUrl: 'app/yingYi.html'
                 }
 //              'columnOne@about': {
 //                  template: '这里是第一列的内容'
@@ -68,7 +68,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/yingEr',
             views: {
                 'content@': {
-                    templateUrl: 'yingEr/yingEr.html'
+                    templateUrl: 'app/yingEr.html'
                 }
             }
        })
@@ -76,7 +76,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/myCourse',
             views: {
                 'content@': {
-                    templateUrl: 'myCourse/myCourse.html'
+                    templateUrl: 'app/course.html'
                 }
             }
        })
@@ -84,7 +84,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/buying',
             views: {
                 'content@': {
-                    templateUrl: 'buying/buying.html'
+                    templateUrl: 'app/buying.html'
                 }
             }
        });
