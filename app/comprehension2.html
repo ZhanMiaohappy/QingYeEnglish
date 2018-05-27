@@ -458,14 +458,14 @@ margin-top: 20px;}
       </div>
       <div class="modal-body">
         <p class="row">
-                    <input type="text" class="input w1" name="name" id="j-mail-name" placeholder="姓名" autocomplete="off" maxlength="10" value="">
-                    <input type="hidden" name="gender" id="j-mail-gender" value="3" autocomplete="off">
+                  姓名  <input type="text" class="input w1" name="n-name" id="j-mail-name" placeholder="{{name}}" autocomplete="off" maxlength="10" value="">
+                   <!-- <input type="hidden" name="gender" id="j-mail-gender" value="3" autocomplete="off">-->
         </p>
         <p class="row">
-                   <input type="number" class="input w1" id="j-mail-tel" name="phone" placeholder="手机" autocomplete="off" value="">
+                  电话 <input type="number" class="input w1" id="j-mail-tel" name="n-phone" placeholder="{{phonenum}}" autocomplete="off" value="">
         </p>
         <p class="row">
-                   <input type="password" class="input w1" id="j-mail-tel" name="password" placeholder="密码" autocomplete="off" value="">
+                  密码 <input type="password" class="input w1" id="j-mail-tel" name="n-password" placeholder="{{password}}" autocomplete="off" value="">
         </p>
       </div>
       <div class="modal-footer">
@@ -526,6 +526,20 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+</script>
+<script type="text/javascript">
+	
+	    $(document).ready(function () {    
+	    	$('input').change(function(){
+		       $('.operate').click(function(){
+	                    setTimeout(function(){//两秒后跳转  
+                                 alert("购买成功！");   
+                                 location.href ="http://127.0.0.1:8020/QingyeEnglish/index.html?__hbt=1527384710860#/myCourse";//PC网页式跳转  
+//                               $.mobile.changePage("index.php"); //手机网页式跳转  
+                        },0); 
+		       });
+	        });
+        }); 
 </script>
   <!--<script type="text/javascript">
   	window.onload=function(){

@@ -8,7 +8,6 @@
                 <li class="datas interval_bottom clearfix">
                     <h5 class="float_left">昵&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称：</h5>
                     <input type="text" name="resetName" class="datas_con datas_box float_left" placeholder="{{name}}"></input>
-                    <a href="javascript:;" id="sub"  onclick="modify()" class="datas_con btn nick_btn float_left" id="change_nickname_btn">修改</a>
                 </li>
                 <li class="datas clearfix">
                     <h5 class="float_left">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</h5>
@@ -22,10 +21,14 @@
             </ul>
         </div>
 </div>
-<script> 
-    function modify () {  
-         alert("修改成功")
-    }  
-  // 当<a>触发click时，处理业务
-}, false);
+ <script>
+ 	$(function(){
+	  $('.datas_box').change(function(){
+		$('.pwd_btn').click(function(){
+			alert('111');
+		});
+	  });
+	});
 </script>
+
+
